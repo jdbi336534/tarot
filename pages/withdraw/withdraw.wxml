@@ -1,0 +1,19 @@
+<view class="container withdraw">
+    <view class="record">
+        <view class="torecord">
+            <text>提现记录</text>
+        </view>
+        <view class="money">
+            <text class="mymoney">我的余额</text>
+            <text class="moneyNum">¥ 0.35</text>
+        </view>
+    </view>
+    <i-input type="number" title="¥" placeholder="请输入要提现的金额" />
+    <i-button>提现</i-button>
+    <i-button type="success">返回首页</i-button>
+    <view class="tips">
+        <text>温馨提示：</text>
+        <text>1.请根据提现流程指引进行提现</text>
+        <text>2.如忘记交易单号，可进入提现记录查看</text>
+    </view>
+</view>

@@ -1,0 +1,97 @@
+<view class="container">
+  <view class="userView">
+    <view class="dashboard">
+      <view class="avatar">
+        <image class="avatar-img" src="/static/images/avatar.jpg"></image>
+      </view>
+      <i-row>
+        <i-col span="8" i-class="col-class">
+          <view class="gird">
+            <view>
+              <text>可做任务</text>
+            </view>
+            <view class="numdsp">
+              <text>8</text>
+              <text>次</text>
+            </view>
+          </view>
+        </i-col>
+        <i-col span="8" i-class="col-class">
+          <view class="gird">
+            <view>
+              <text>累计奖金</text>
+            </view>
+            <view class="numdsp">
+              <text>160</text>
+              <text>元</text>
+            </view>
+          </view>
+        </i-col>
+        <i-col span="8" i-class="col-class">
+          <view class="gird">
+            <view>
+              <text>积分总数</text>
+            </view>
+            <view class="numdsp">
+              <text>500</text>
+              <text>分</text>
+            </view>
+          </view>
+        </i-col>
+      </i-row>
+      <i-row>
+        <i-col span="8" i-class="col-class">
+          <i-button bind:click="handleWithdraw" type="error" shape="circle" size="mini" class="i-btn-mini">提现</i-button>
+        </i-col>
+        <i-col span="16" i-class="col-class">
+          <i-button type="success" shape="circle" size="mini">联系客服</i-button>
+        </i-col>
+      </i-row>
+    </view>
+  </view>
+  <view class="userView">
+    <view class="rewardList">
+      <view class="title">
+        获奖记录
+      </view>
+      <i-row>
+        <i-col span="8" i-class="col-class">
+          <view class="header">奖金</view>
+        </i-col>
+        <i-col span="16" i-class="col-class">
+          <view class="header">获取时间</view>
+        </i-col>
+      </i-row>
+      <i-row>
+        <i-col span="8" i-class="col-class">
+          <view class="row">0.12</view>
+        </i-col>
+        <i-col span="16" i-class="col-class">
+          <view class="row">2018-09-21 22:10:35</view>
+        </i-col>
+      </i-row>
+ <i-row>
+        <i-col span="8" i-class="col-class">
+          <view class="row">0.12</view>
+        </i-col>
+        <i-col span="16" i-class="col-class">
+          <view class="row">2018-09-21 22:10:35</view>
+        </i-col>
+      </i-row> <i-row>
+        <i-col span="8" i-class="col-class">
+          <view class="row">0.12</view>
+        </i-col>
+        <i-col span="16" i-class="col-class">
+          <view class="row">2018-09-21 22:10:35</view>
+        </i-col>
+      </i-row> <i-row>
+        <i-col span="8" i-class="col-class">
+          <view class="row">0.12</view>
+        </i-col>
+        <i-col span="16" i-class="col-class">
+          <view class="row">2018-09-21 22:10:35</view>
+        </i-col>
+      </i-row> 
+    </view>
+  </view>
+</view>

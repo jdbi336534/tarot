@@ -1,0 +1,52 @@
+<scroll-view scroll-y class="task">
+  <view class="block">放图</view>
+  <view class="panel wait">
+    <!-- <view class="circle"></view> -->
+    <view class="title">用户流失测试任务</view>
+    <view class="time">未参赛 · 14:30:00 - 15:00:00</view>
+    <view class="peopleAndmoney">
+      <view>
+        <view class="header">参与人数(人)</view>
+        <view class="bodynumber">3388</view>
+      </view>
+      <view class="line"></view>
+      <view>
+        <view class="header">现金奖励(元)</view>
+        <view class="bodynumber">40000</view>
+      </view>
+    </view>
+    <view class="detail">查看详情</view>
+  </view>
+  <view class="panel ing">
+    <view class="title">用户流失测试任务</view>
+    <view class="time">未参赛 · 15:30:10 - 16:40:00</view>
+      <view class="peopleAndmoney">
+      <view>
+        <view class="header">参与人数(人)</view>
+        <view class="bodynumber">3388</view>
+      </view>
+      <view class="line"></view>
+      <view>
+        <view class="header">现金奖励(元)</view>
+        <view class="bodynumber">40000</view>
+      </view>
+    </view>
+    <view class="detail">查看详情</view>
+  </view>
+  <view class="panel over">
+  <view class="title">用户流失测试任务</view>
+    <view class="time">未参赛 · 15:30:10 - 16:40:00</view>
+      <view class="peopleAndmoney">
+      <view>
+        <view class="header">参与人数(人)</view>
+        <view class="bodynumber">3388</view>
+      </view>
+      <view class="line"></view>
+      <view>
+        <view class="header">现金奖励(元)</view>
+        <view class="bodynumber">40000</view>
+      </view>
+    </view>
+    <view class="detail">查看详情</view>
+  </view>
+</scroll-view>

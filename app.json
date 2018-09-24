@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/invate/invate",
+    "pages/top/top",
+    "pages/task/task",
+    "pages/user/user",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/withdraw/withdraw"
+  ],
+  "window": {
+    "backgroundColor": "#f4f4f4",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "#fafafa",
+    "borderStyle": "white",
+    "selectedColor": "#AB956D",
+    "color": "#666",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "static/images/ic_menu_choice_nor.png",
+        "selectedIconPath": "static/images/home@selected.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/task/task",
+        "iconPath": "static/images/ic_menu_choice_nor.png",
+        "selectedIconPath": "static/images/home@selected.png",
+        "text": "任务"
+      },
+      {
+        "pagePath": "pages/top/top",
+        "iconPath": "static/images/ic_menu_sort_nor.png",
+        "selectedIconPath": "static/images/category@selected.png",
+        "text": "排行榜"
+      },
+      {
+        "pagePath": "pages/invate/invate",
+        "iconPath": "static/images/ic_menu_shoping_nor.png",
+        "selectedIconPath": "static/images/cart@selected.png",
+        "text": "邀请记录"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "static/images/ic_menu_me_nor.png",
+        "selectedIconPath": "static/images/my@selected.png",
+        "text": "个人中心"
+      }
+    ]
+  }
+}

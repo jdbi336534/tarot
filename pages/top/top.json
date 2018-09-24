@@ -1,0 +1,11 @@
+{
+  "component": true,
+  "usingComponents": {
+    "i-tabs": "../../dist/tabs/index",
+    "i-tab": "../../dist/tab/index",
+    "i-row": "../../dist/row/index",
+    "i-col": "../../dist/col/index"
+  },
+  "navigationBarBackgroundColor": "#f4f4f4",
+  "navigationBarTitleText": "排行榜"
+}

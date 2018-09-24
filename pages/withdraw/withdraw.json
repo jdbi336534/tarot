@@ -1,0 +1,9 @@
+{
+    "component": true,
+    "usingComponents": {
+      "i-input": "../../dist/input/index",
+      "i-button": "../../dist/button/index"
+    },
+    "navigationBarBackgroundColor": "#f4f4f4",
+    "navigationBarTitleText": "余额提现"
+  }

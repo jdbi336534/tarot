@@ -1,0 +1,98 @@
+.userView {
+  margin-top: 0rpx;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 30rpx 30rpx;
+  overflow: hidden;
+}
+
+.userView .dashboard {
+  background: white;
+  width: 100%;
+  border-radius: 12rpx;
+  height: 364rpx;
+  margin-top: 70rpx;
+  padding: 80rpx 20rpx 20rpx;
+  position: relative;
+}
+
+.userView .avatar {
+  height: 140rpx;
+  width: 140rpx;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border: 1px solid #f1f1f1;
+  box-shadow: #f1f1f1 0 0 10rpx;
+  background: white;
+  position: absolute;
+  top: -70rpx;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.userView .avatar-img {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+}
+
+.userView .userAbout {
+  width: 100%;
+  height: 160rpx;
+  background: blue;
+}
+
+.userView .gird {
+  display: flex;
+  flex-direction: column;
+}
+
+.userView .gird view {
+  text-align: center;
+  color: #666;
+  padding-top: 10rpx;
+}
+
+.userView .gird .numdsp {
+  padding: 34rpx 0 10rpx;
+}
+
+.userView .gird .numdsp text:first-child {
+  color: #664a2c;
+  font-size: 50rpx;
+}
+
+.userView .gird .numdsp text {
+  font-size: 24rpx;
+  color: #664a2c;
+}
+
+.userView .rewardList {
+  background: white;
+  width: 100%;
+  border-radius: 12rpx;
+  padding-bottom:60rpx;
+}
+.userView .rewardList .title{
+  color:#664a2c;
+  text-align: center;
+  font-size:34rpx;
+  padding:26rpx;
+  font-weight: bold;
+}
+.userView .rewardList .header{
+ padding:20rpx;
+text-align:center;
+color:#666666;
+background:#f2f2f2;
+}
+.userView .rewardList .row{
+   padding:20rpx;
+text-align:center;
+color:#666666;
+border-bottom:1rpx solid #eeeeee;
+}

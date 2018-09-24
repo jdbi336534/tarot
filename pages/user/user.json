@@ -1,0 +1,10 @@
+{
+  "component": true,
+  "usingComponents": {
+    "i-row": "../../dist/row/index",
+    "i-col": "../../dist/col/index",
+    "i-button": "../../dist/button/index"
+  },
+  "navigationBarBackgroundColor": "#f4f4f4",
+  "navigationBarTitleText": "个人中心"
+}

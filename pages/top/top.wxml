@@ -1,0 +1,44 @@
+<view class="container top">
+    <view class="header">
+        <i-row>
+            <i-col span="12" i-class="col-class">
+                <button class="{{current==0?'active':''}}" bindtap="handleSuccess">成功榜</button>
+            </i-col>
+            <i-col span="12" i-class="col-class">
+                <button class="{{current==1?'active':''}}" bindtap="handleIndomitable">毅力榜</button>
+            </i-col>
+        </i-row>
+    </view>
+    <swiper current="{{current}}" bindchange="handleChange" class="myscroll">
+        <swiper-item class="myscrollview">
+            <scroll-view scroll-y class="scrollView">
+                <view class="list" wx:for="{{success}}" wx:key="index">
+                    <view class="index">{{index+1}}</view>
+                    <view class="user">
+                        <image src="{{item.avatar}}"></image>
+                        <text>{{item.name}}</text>
+                    </view>
+                    <view class="times">
+                        <text class="time-num">{{item.times}}</text>
+                        <text class="cut">个</text>
+                    </view>
+                </view>
+            </scroll-view>
+        </swiper-item>
+        <swiper-item>
+            <scroll-view scroll-y class="scrollView">
+                <view class="list" wx:for="{{indomitable}}" wx:key="index">
+                    <view class="index">{{index+1}}</view>
+                    <view class="user">
+                        <image src="{{item.avatar}}"></image>
+                        <text>{{item.name}}</text>
+                    </view>
+                    <view class="times">
+                        <text class="time-num">{{item.times}}</text>
+                        <text class="cut">次</text>
+                    </view>
+                </view>
+            </scroll-view>
+        </swiper-item>
+    </swiper>
+</view>

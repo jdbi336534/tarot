@@ -1,0 +1,106 @@
+.task {
+  height: 100%;
+  background-color: #f4f4f4;
+  font-family: PingFangSC-Light, helvetica, 'Heiti SC';
+  box-sizing: border-box;
+}
+
+.task .block {
+  height: 240rpx;
+}
+
+.task .panel {
+  margin: 40rpx 50rpx;
+  height: 580rpx;
+  border-radius: 24rpx;
+  position: relative;
+  overflow: hidden;
+}
+
+.task .panel .circle {
+   overflow: hidden;
+  position: absolute;
+  left: 50%;
+  top: -1808rpx;
+  transform: translateX(-50%);
+  width: 2000rpx;
+  height: 2000rpx;
+  border-radius: 50%;
+  background-image: -webkit-linear-gradient(0deg, #fa8f68, #ff5e4c);
+}
+
+.task .wait {
+  background-image: -webkit-linear-gradient(top, #ff6048, #ff7f4f);
+}
+
+.task .ing {
+  background-image: -webkit-linear-gradient(top, #45a9f2, #69c4ff);
+}
+
+.task .over {
+  background-image: -webkit-linear-gradient(top, #7d65cb, #daa0cf);
+}
+
+.task .panel .title {
+  z-index: 2;
+  position: relative;
+  text-align: center;
+  color: #fff;
+  font-size: 50rpx;
+  margin: 40rpx 0;
+}
+
+.task .panel .time {
+  z-index: 2;
+  font-size: 28rpx;
+  position: relative;
+  text-align: center;
+  color: #fff;
+  margin: 50rpx auto 0;
+  background: rgba(0, 0, 0, 0.15);
+  padding: 10rpx 40rpx;
+  border-radius: 30rpx;
+  width: 450rpx;
+}
+.task .panel .peopleAndmoney{
+padding:0 40rpx;
+display:flex;
+flex-direction: row;
+justify-content:center;
+align-items:center;
+margin-top:40rpx;
+}
+.task .panel .peopleAndmoney>view:first-child{
+  flex:1;
+}
+.task .panel .peopleAndmoney>view:last-child{
+  flex:1;
+}
+.task .panel .peopleAndmoney>view.line{
+  width:1rpx;
+  height:70rpx;
+  border-right:1px solid rgba(255,255,255,0.1);
+}
+.task .panel .peopleAndmoney .header{
+  color:#fff;
+  font-size: 28rpx;
+text-align: center;
+}
+.task .panel .peopleAndmoney .bodynumber{
+text-align: center;
+color:#fff;
+  font-size: 80rpx;
+  padding:20rpx 0;
+}
+.task .panel .detail{
+width:80%;
+height:120rpx;
+line-height:120rpx;
+background: #ffe976;
+color:#774700da;
+border-radius:10rpx;
+text-align:center;
+font-size:40rpx;
+margin:10rpx auto 0;
+font-weight: bold;
+}
